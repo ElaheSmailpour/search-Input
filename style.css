@@ -63,17 +63,26 @@ header{
     border-left: none;
     cursor: pointer;
 }
-.ul-search{
+.nav-search{
+    position: relative;
+}
+
+
+.nav-search> .ul-search{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(105, 151, 135);
-    width: 200px;
+    width: 300px;
     height: 300px;
+    position: absolute;
+    left: 210px;
+    top: -40px;
 }
 .ul-search>li{
     margin-right: 1rem;
+    border-bottom: 2px lightgray solid ;
 }
 .ul-search>li:hover{
     background-color: hotpink;
