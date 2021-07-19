@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(193, 230, 230);
+    height: 3rem;
+    padding: 20px 0;
+    margin: 2rem;
+    width: 1000px;
+    margin-left: 10rem;
+    
+}
+header{
+    position: relative;
+}
+.title-header{
+    color: red;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-decoration: unset;
+    font-weight: bolder;
+    position: absolute;
+    left: 0;
+    top: -30px;
+    padding: 1rem;
+}
+
+.menu{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+}
+.service{
+    margin-left: 20px;
+    color: black;
+}
+.login{
+    margin-left: 20px;
+    color: black
+}
+.cart{
+    margin-left: auto;
+    color: black
+}
+.menu >input{
+    width: 300px;
+    height: 2rem;
+    
+}
+.search-input{
+    
+    width: 10%;
+    padding: 5px;
+    background: #ca1136;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
