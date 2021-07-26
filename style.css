@@ -107,7 +107,8 @@ header{
     position: absolute;
     top: 100%;
     left: 0;
+    background-color: aquamarine;
 }
-.ss{
+.card-items{
     position: relative;
 }
