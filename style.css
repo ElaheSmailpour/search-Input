@@ -43,10 +43,7 @@ header{
     margin-left: 20px;
     color: black
 }
-.cart{
-    margin-left: auto;
-    color: black
-}
+
 .menu >input{
     width: 300px;
     height: 2rem;
@@ -62,28 +59,55 @@ header{
     border: 1px solid grey;
     border-left: none;
     cursor: pointer;
+    margin-left: 1rem;
+    padding: 0.5rem 2rem;
 }
 .nav-search{
     position: relative;
 }
 
 
-.nav-search> .ul-search{
+ .ul-search{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
     background-color: rgb(105, 151, 135);
-    width: 300px;
-    height: 300px;
+
+    width: 100%;
     position: absolute;
-    left: 210px;
-    top: -40px;
+    left: 0px;
+    top: 100%;
+    display: none;
+    
 }
+
+
 .ul-search>li{
-    margin-right: 1rem;
-    border-bottom: 2px lightgray solid ;
+    width: 100%;
+    padding: 1rem;
+    text-align: center;
 }
 .ul-search>li:hover{
     background-color: hotpink;
+}
+.ul-input{
+    position: relative;
+   
+}
+.input-search:focus + .ul-search{
+    display:flex;
+}
+.cart{
+    margin-left: auto;
+    color: black;
+    
+}
+.list-item {
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+.ss{
+    position: relative;
 }
